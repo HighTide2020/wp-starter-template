@@ -6,7 +6,7 @@ Create new project in Local by Flywheel:
 
 - Set site name, local dev URL, and project directory
 - Choose custom environment:
-  - PHP Version >= 7.2.0
+  - PHP >= 7.1.3 (with php-mbstring enabled)
   - Web server = Apache
   - MySQL >= 5.6
 
@@ -20,7 +20,7 @@ Create new project in Local by Flywheel:
 
 # @ app/public/
 
-$ git clone --depth 1 https://github.com/hightide2020/wp-starter-template.git
+$ git clone --depth 1 https://github.com/m4leware666/wp-starter-template.git
 $ rm -rf starter-template/.git
 $ cp -r starter-template/. .
 $ rm -rf starter-template
